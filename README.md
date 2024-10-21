@@ -59,6 +59,7 @@ source /cadence/install/cshrc (mention the path of the tools)
 (The path of cshrc could vary depending on the installation destination)
       
 After this you can see the window like below 
+![Screenshot 2024-10-21 111559](https://github.com/user-attachments/assets/e06edaf5-fbcb-45e8-8bb7-00c7f2219046)
 
 ### Fig 2: Invoke the Cadence Environment
 
@@ -72,12 +73,14 @@ or
 
 
 It will invoke the nclaunch window for functional simulation we can compile,elaborate and simulate it using Multiple Step .
+![Screenshot 2024-10-05 143941](https://github.com/user-attachments/assets/eeae1c72-0b13-4f70-8913-aff0c16a6cff)
 
 ### Fig 3: Setting Multi-step simulation
 
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure 
 
 Click the cds.lib file and save the file by clicking on Save option 
+![Screenshot 2024-10-21 111704](https://github.com/user-attachments/assets/2731f880-879f-49db-a7be-06fc6647a436)
 
 ### Fig 4:cds.lib file Creation
 
@@ -100,6 +103,7 @@ Left side you can see the HDL files. Right side of the window has worklib and sn
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation .
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation. 
+![Screenshot 2024-10-21 111815](https://github.com/user-attachments/assets/1099ba94-0f0f-4299-adfc-99fad72b65c7)
 
 ### Fig 6: Nclaunch Window
 
@@ -158,6 +162,7 @@ Outputs: Elaborate database updated in mapped library if successful, generates r
 5.It also establishes net connectivity and prepares all of this for simulation
 
 After elaboration the file will come under snapshot. Select the test bench and simulate it.
+![Screenshot 2024-10-21 112157](https://github.com/user-attachments/assets/e54e8bc0-46b4-48aa-b67c-a6ec22bef57a)
 
 ## Fig 8: Elaboration Launch Option
 
@@ -172,10 +177,13 @@ Outputs: Simulation log file, waveforms for debugging
 Simulation allow to dump design and test bench signals into a waveform 
 
 Steps for simulation – Run the simulation command with simulator options
+![Screenshot 2024-10-21 112437](https://github.com/user-attachments/assets/d6d0c2e0-5b7b-4978-b63b-c4fa4195c231)
 
 ## Fig 9: Design Browser window for simulation
+![Screenshot 2024-10-21 113705](https://github.com/user-attachments/assets/4e9a081a-5db2-41d6-a682-8b3a9918fbbf)
 
 ## Fig 10:Simulation Waveform Window
+![Screenshot 2024-10-21 112654](https://github.com/user-attachments/assets/ab482d4b-1d2d-432e-9474-516babd93920)
 
 ## Fig 11:Simulation Waveform Window
 
